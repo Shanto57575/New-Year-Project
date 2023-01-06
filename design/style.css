@@ -1,11 +1,74 @@
-*{
-    margin:0;
+* {
+    margin: 0;
 }
-.banner{
-    background-color: aqua;
+/* Banner section */
+.side{
+    display: flex;
+}
+.banner {
+    gap: 100px;
+    padding: 320px 320px 100px 320px;
     background-image: url('/images/banner/banner3.png');
 }
 
-.banner-tittle{
-   text-align: right;
+.banner-tittle {
+    color: white;
+    align-items: center;
+    text-align: right;
+    font-weight: bolder;
+    margin-right: 30px;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.banner-des {
+    color: white;
+    align-items: center;
+    text-align: right;
+    margin-right: 20px;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.btn-pri{
+    margin-top: 20px;
+    background-color: white;
+    color: blue;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    height: 60px;
+    width: 190px;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 10px;
+}
+/* main-section starts here*/
+
+.pic-art{
+    align-items: center;
+    padding: 150px 300px 30px 300px ;
+    gap: 100px;
+    display: flex;
+}
+.pic-art-tittle{
+    color: black;
+    align-items: center;
+    text-align: left;
+    font-weight: bolder;
+    margin-right: 30px;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.pic-art-des{
+    color: black;
+    justify-content: space-between;
+    margin-right: 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+li{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
