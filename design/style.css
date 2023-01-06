@@ -133,3 +133,99 @@ li{
     font-weight: 700;
     font-size: 25px;
 }
+.extra-ftr{
+    margin: 30px 300px 0 300px;
+    gap: 40px;
+    display: flex;
+}
+.extra-ftr-tittle{
+    font-weight: 700;
+    padding: 0 300px 0 300px;
+    font-size: 60px;
+    margin: 100px;
+    text-align: center;
+}
+.extra-tittle{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.extra-des{
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.extra1{
+    background-color: blanchedalmond;
+    padding: 28px;
+}
+.extra2{
+    background-color: rgb(201, 247, 133);
+    padding: 28px;
+}
+.extra3{
+    background-color: lightgray;
+    padding: 28px;
+}
+.extra1:hover{
+    background-color: pink;
+    /* color: black; */
+}
+.extra2:hover{
+    background-color: rgb(191, 246, 80);
+    /* color: white; */
+}
+.extra3:hover{
+    background-color: gray;
+    /* color: white; */
+}
+.card{
+    margin-bottom: 100px;
+}
+/* footer */
+.ftr{
+    background-color: black;
+    color: white;
+    display: flex;
+    gap: 300px;
+    height: 400px;
+    align-items: center;
+    padding: 100px 300px 0 300px;
+}
+.ftr-tittle{
+   font-weight: 700;
+   font-size: 50px;
+   margin-bottom: 20px;
+}
+.ftr-sub{
+   font-weight: 400;
+   font-size: 20px;
+   margin-bottom: 20px;
+}
+.img-icon{
+    display: flex;
+    gap: 20px;
+}
+input{
+    font-size: 35px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: black;
+    color: gray;
+    height: 30px;
+    width: 350px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.btn{
+    font-size: 25px;
+    font-weight: 700;
+    border: 1px solid white;
+    border-radius: 9px;
+    background-color: blue;
+    color: white;
+    height: 70px;
+    width: 180px;
+    padding: 20px;
+    margin-bottom: 100px;
+}
