@@ -1,0 +1,11 @@
+*{
+    margin:0;
+}
+.banner{
+    background-color: aqua;
+    background-image: url('/images/banner/banner3.png');
+}
+
+.banner-tittle{
+   text-align: right;
+}
