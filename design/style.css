@@ -6,8 +6,9 @@
     display: flex;
 }
 .banner {
-    gap: 100px;
-    padding: 320px 320px 100px 320px;
+    background-repeat: no repeat;
+    background-size: cover;
+    padding: 350px 50px 100px 0;
     background-image: url('../images/banner/banner3.png');
 }
 
@@ -68,8 +69,11 @@
     margin-bottom: 20px;
 }
 
+ul{
+    padding-left: 0;
+}
 li{
-    text-align: left;
+    list-style: none;
     margin-bottom: 10px;
     font-size: 20px;
 }
